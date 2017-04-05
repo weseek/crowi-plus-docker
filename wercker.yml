@@ -1,0 +1,15 @@
+box: docker:stable
+
+
+build:
+  steps:
+    - script:
+      code: docker build
+
+
+# the pipeline that do nothing
+#  this is needed while wercker can't detect specified branch pushed
+empty:
+  steps:
+    - script:
+      code: echo "this is $WERCKER_GIT_BRANCH branch"
