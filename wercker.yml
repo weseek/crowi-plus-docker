@@ -1,4 +1,4 @@
-box: docker:stable
+box: debian
 
 
 release:
