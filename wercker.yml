@@ -7,12 +7,12 @@ release:
       name: bump version
       code: |
         NEW_APP_VERSION=v$RELEASE_VERSION
-        ./bin/bump-version.sh
+        sh ./bin/bump-version.sh
 
     - script:
       name: git commit
       code: |
-        ./bin/init-git.sh
+        sh ./bin/init-git.sh
         git commit -am ":+1: version"
 
     - script:
