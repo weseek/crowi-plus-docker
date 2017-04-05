@@ -17,7 +17,7 @@ prepare-to-release:
     - script:
       name: push to github
       code: |
-        git push -u origin HEAD:master
+        git push -u origin HEAD:$WERCKER_GIT_BRANCH
 
     - script:
       name: push to github to create new branch
