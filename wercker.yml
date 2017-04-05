@@ -4,6 +4,9 @@ box: node:6
 release:
   steps:
     - script:
+      code: env
+  steps:
+    - script:
       name: bump version
       code: |
         NEW_APP_VERSION=v$RELEASE_VERSION
@@ -25,11 +28,3 @@ release:
       token: $GITHUB_TOKEN
       tag: v$RELEASE_VERSION
       target-commitish: $TARGET_COMMITISH
-
-
-# the pipeline that do nothing
-#  this is needed while wercker can't detect specified branch pushed
-empty:
-  steps:
-    - script:
-      code: echo "this is $WERCKER_GIT_BRANCH branch"
