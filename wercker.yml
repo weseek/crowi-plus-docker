@@ -1,12 +1,13 @@
 box: docker:stable
 
 
-prepare-to-release:
+release:
   steps:
     - script:
       name: bump version
       code: |
-        NEW_APP_VERSION=v$RELEASE_VERSION ./bin/bump-version.sh
+        NEW_APP_VERSION=v$RELEASE_VERSION
+        ./bin/bump-version.sh
 
     - script:
       name: git commit
@@ -18,31 +19,12 @@ prepare-to-release:
       name: push to github
       code: |
         git push -u origin HEAD:$WERCKER_GIT_BRANCH
-
-    - script:
-      name: push to github to create new branch
-      code: |
-        git checkout -B tmp/release-$RELEASE_VERSION
-        git push -u origin HEAD:tmp/release-$RELEASE_VERSION
-
-
-release-to-github: # would be run on temporary release branch
-  steps:
-    -script:
-      name: get version from branch name
-      code: |
-        export RELEASE_VERSION=`echo $WERCKER_GIT_BRANCH | sed -e 's/tmp\/release-//'`
+        TARGET_COMMITISH=`git rev-parse HEAD`
 
     - github-create-release:
       token: $GITHUB_TOKEN
       tag: v$RELEASE_VERSION
-
-    - script:
-      name: remove temporary release branch
-      code: |
-        ./bin/init-git.sh
-        # remove branch
-        git push --delete origin $WERCKER_GIT_BRANCH
+      target-commitish: $TARGET_COMMITISH
 
 
 # the pipeline that do nothing
