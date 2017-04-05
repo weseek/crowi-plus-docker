@@ -1,7 +1,7 @@
-corwi-plus-docker
+crowi-plus-docker
 ==================
 
-
+[![](https://images.microbadger.com/badges/image/weseek/crowi-plus.svg)](https://hub.docker.com/r/weseek/crowi-plus/)
 
 Supported tags and respective Dockerfile links
 ------------------------------------------------
@@ -9,8 +9,18 @@ Supported tags and respective Dockerfile links
 * [`1.0.0-RC11` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/master/Dockerfile)
 
 
-Documents
-----------
+What is corwi-plus-docker?
+---------------------------
+
+(TBD)
+
+Usage
+-----
+
+(TBD)
+
+Documentation
+--------------
 
 * [crowi-plus wiki](https://github.com/weseek/crowi-plus/wiki)
   * [Question and Answers](https://github.com/weseek/crowi-plus/wiki/Question-and-Answers)
