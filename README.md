@@ -9,7 +9,7 @@ Supported tags and respective Dockerfile links
 * [`1.0.0-RC11` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/master/Dockerfile)
 
 
-What is corwi-plus-docker?
+What is crowi-plus-docker?
 ---------------------------
 
 (TBD)
