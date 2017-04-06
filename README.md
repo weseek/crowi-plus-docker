@@ -1,6 +1,7 @@
 crowi-plus-docker
 ==================
 
+[![wercker status](https://app.wercker.com/status/9a2ecec089dee1e6f308f5d0d1e090ae/s/ "wercker status")](https://app.wercker.com/project/byKey/9a2ecec089dee1e6f308f5d0d1e090ae)
 [![](https://images.microbadger.com/badges/image/weseek/crowi-plus.svg)](https://hub.docker.com/r/weseek/crowi-plus/)
 
 Supported tags and respective Dockerfile links
