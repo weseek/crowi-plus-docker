@@ -26,3 +26,12 @@ release:
       token: $GITHUB_TOKEN
       tag: v$RELEASE_VERSION
       target-commitish: $TARGET_COMMITISH
+
+  after-steps:
+    - install-packages:
+      packages: ruby
+
+    - wantedly/pretty-slack-notify:
+      webhook_url: $SLACK_WEBHOOK_URL
+      notify_on: "passed"
+      passed_message: ":anchor: crowi-plus v$RELEASE_VERSION has been released!"
