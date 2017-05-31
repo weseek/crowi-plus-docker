@@ -6,7 +6,7 @@ crowi-plus-docker
 Supported tags and respective Dockerfile links
 ------------------------------------------------
 
-* [`1.1.10`, `1.1`, `1` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v1.1.10/Dockerfile)
+* [`1.1.11`, `1.1`, `1` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v1.1.11/Dockerfile)
 * [`1.0.9`, `1.0` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v1.0.9/Dockerfile)
 
 
