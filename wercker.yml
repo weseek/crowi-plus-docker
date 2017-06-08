@@ -6,7 +6,7 @@ release:
     - script:
       name: bump version
       code: |
-        NEW_APP_VERSION=v$RELEASE_VERSION sh ./bin/bump-version.sh
+        sh ./bin/bump-version.sh
 
     - script:
       name: git commit
