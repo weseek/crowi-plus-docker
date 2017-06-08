@@ -16,7 +16,7 @@ What is crowi-plus?
 
 crowi-plus is open source wiki system that is forked from [crowi](https://github.com/weseek/crowi/crowi)
 
-see: https://github.com/weseek/crowi-plus
+see: [weseek/crowi-plus](https://github.com/weseek/crowi-plus)
 
 
 Requirements
@@ -60,7 +60,7 @@ More info are [here](https://github.com/crowi/crowi/wiki/Install-and-Configurati
 
 Using docker-compose is the most quick and convenient way to boot crowi-plus.
 
-see: https://github.com/weseek/crowi-plus-docker-compose
+see: [weseek/crowi-plus-docker-compose](https://github.com/weseek/crowi-plus-docker-compose)
 
 Other Documentation
 --------------------
