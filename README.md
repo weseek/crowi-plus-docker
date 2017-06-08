@@ -36,9 +36,9 @@ Usage
 -----
 
 ```bash
-docker run --name crowi-plus -d \
+docker run -d \
     -e MONGO_URI=mongodb://MONGODB_HOST:MONGODB_PORT/crowi \
-    weseek/crowi-plus-docker
+    weseek/crowi-plus
 ```
 
 and go to `http://localhost:3000/` .
@@ -46,11 +46,11 @@ and go to `http://localhost:3000/` .
 If you use Redis and ElasticSearch, type this:
 
 ```bash
-docker run --name crowi-plus -d \
+docker run -d \
     -e MONGO_URI=mongodb://MONGODB_HOST:MONGODB_PORT/crowi \
     -e REDIS_URL=redis://REDIS_HOST:REDIS_PORT/crowi \
     -e ELASTICSEARCH_URI=http://ELASTICSEARCH_HOST:ELASTICSEARCH_PORT/crowi \
-    weseek/crowi-plus-docker
+    weseek/crowi-plus
 ```
 
 More info are [here](https://github.com/crowi/crowi/wiki/Install-and-Configuration#env-parameters).
