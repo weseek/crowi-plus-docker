@@ -7,7 +7,7 @@ Supported tags and respective Dockerfile links
 ------------------------------------------------
 
 * [`1.2.8`, `1.2`, `1` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v1.2.8/Dockerfile)
-* [`1.1.12`, `1.1`, `1` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v1.1.12/Dockerfile)
+* [`1.1.12`, `1.1` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v1.1.12/Dockerfile)
 * [`1.0.9`, `1.0` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v1.0.9/Dockerfile)
 
 
