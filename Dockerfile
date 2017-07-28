@@ -23,6 +23,10 @@ RUN apk add --no-cache --virtual .build-deps git \
     && yarn cache clean \
     && apk del .build-deps
 
+COPY docker-entrypoint.sh /
+
 VOLUME /data
 EXPOSE 3000
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["npm", "run", "server:prod"]
