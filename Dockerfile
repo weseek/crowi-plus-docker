@@ -1,4 +1,4 @@
-FROM node:6.10-alpine
+FROM node:6-alpine
 MAINTAINER Yuki Takei <yuki@weseek.co.jp>
 
 ENV APP_VERSION v2.0.1-RC
