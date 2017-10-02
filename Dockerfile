@@ -17,7 +17,7 @@ WORKDIR ${APP_DIR}
 
 # setup
 RUN apk add --no-cache --virtual .build-deps git \
-    && yarn global add npm@5 \
+    && yarn global add npm@4 \
     && yarn install --production \
     && npm run build:prod \
     && yarn cache clean \
