@@ -1,5 +1,5 @@
 FROM node:6.11-alpine
-MAINTAINER Yuki Takei <yuki@weseek.co.jp>
+LABEL maintainer Yuki Takei <yuki@weseek.co.jp>
 
 ENV APP_VERSION v2.2.0
 ENV APP_DIR /opt/crowi-plus
