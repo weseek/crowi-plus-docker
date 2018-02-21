@@ -1,12 +1,12 @@
 crowi-plus-docker
 ==================
 
-[![wercker status](https://app.wercker.com/status/9a2ecec089dee1e6f308f5d0d1e090ae/s/ "wercker status")](https://app.wercker.com/project/byKey/9a2ecec089dee1e6f308f5d0d1e090ae) [![docker build automated](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/weseek/crowi-plus/) [![](https://images.microbadger.com/badges/image/weseek/crowi-plus.svg)](https://microbadger.com/images/weseek/crowi-plus)
+[![wercker status](https://app.wercker.com/status/9a2ecec089dee1e6f308f5d0d1e090ae/s/ "wercker status")](https://app.wercker.com/project/byKey/9a2ecec089dee1e6f308f5d0d1e090ae) [![docker build automated](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/weseek/crowi-plus/) [![docker pulls](https://img.shields.io/docker/pulls/weseek/crowi-plus.svg)](https://hub.docker.com/r/weseek/crowi-plus/) [![](https://images.microbadger.com/badges/image/weseek/crowi-plus.svg)](https://microbadger.com/images/weseek/crowi-plus)
 
 Supported tags and respective Dockerfile links
 ------------------------------------------------
 
-* [`2.4.0`, `2.4`, `2`, `latest` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v2.4.0/Dockerfile)
+* [`2.4.1`, `2.4`, `2`, `latest` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v2.4.1/Dockerfile)
 * [`2.3.9`, `2.3`, `2` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v2.3.9/Dockerfile)
 * [`2.2.4`, `2.2` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v2.2.4/Dockerfile)
 * [`2.1.2`, `2.1` (Dockerfile)](https://github.com/weseek/crowi-plus-docker/blob/v2.1.2/Dockerfile)
@@ -19,7 +19,7 @@ Supported tags and respective Dockerfile links
 What is crowi-plus?
 -------------------
 
-crowi-plus is open source wiki system that is forked from [crowi](https://github.com/weseek/crowi/crowi)
+crowi-plus is open source wiki system forked from [crowi](https://github.com/weseek/crowi/crowi)
 
 see: [weseek/crowi-plus](https://github.com/weseek/crowi-plus)
 
@@ -58,12 +58,12 @@ docker run -d \
     weseek/crowi-plus
 ```
 
-More info are [here](https://github.com/crowi/crowi/wiki/Install-and-Configuration#env-parameters).
+For more info [here](https://github.com/crowi/crowi/wiki/Install-and-Configuration#env-parameters).
 
 
 ### docker-compose
 
-Using docker-compose is the most quick and convenient way to boot crowi-plus.
+Using docker-compose is the fastest and the most convenient way to boot crowi-plus.
 
 see: [weseek/crowi-plus-docker-compose](https://github.com/weseek/crowi-plus-docker-compose)
 
@@ -77,7 +77,7 @@ Other Documentation
 Issues
 ------
 
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/weseek/crowi-plus-docker-compose/issues).
+If you have any issues or questions about this image, please contact us through  [GitHub issue](https://github.com/weseek/crowi-plus-docker-compose/issues).
 
 
 License
