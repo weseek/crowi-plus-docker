@@ -63,7 +63,7 @@ For more info [here](https://github.com/crowi/crowi/wiki/Install-and-Configurati
 
 ### docker-compose
 
-Using docker-compose is the most quick and convenient way to boot crowi-plus.
+Using docker-compose is the fastest and the most convenient way to boot crowi-plus.
 
 see: [weseek/crowi-plus-docker-compose](https://github.com/weseek/crowi-plus-docker-compose)
 
