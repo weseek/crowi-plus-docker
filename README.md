@@ -19,7 +19,7 @@ Supported tags and respective Dockerfile links
 What is crowi-plus?
 -------------------
 
-crowi-plus is open source wiki system that is forked from [crowi](https://github.com/weseek/crowi/crowi)
+crowi-plus is open source wiki system forked from [crowi](https://github.com/weseek/crowi/crowi)
 
 see: [weseek/crowi-plus](https://github.com/weseek/crowi-plus)
 
@@ -58,12 +58,12 @@ docker run -d \
     weseek/crowi-plus
 ```
 
-More info are [here](https://github.com/crowi/crowi/wiki/Install-and-Configuration#env-parameters).
+For more info [here](https://github.com/crowi/crowi/wiki/Install-and-Configuration#env-parameters).
 
 
 ### docker-compose
 
-Using docker-compose is the most quick and convenient way to boot crowi-plus.
+Using docker-compose is the fastest and the most convenient way to boot crowi-plus.
 
 see: [weseek/crowi-plus-docker-compose](https://github.com/weseek/crowi-plus-docker-compose)
 
@@ -77,7 +77,7 @@ Other Documentation
 Issues
 ------
 
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/weseek/crowi-plus-docker-compose/issues).
+If you have any issues or questions about this image, please contact us through  [GitHub issue](https://github.com/weseek/crowi-plus-docker-compose/issues).
 
 
 License
