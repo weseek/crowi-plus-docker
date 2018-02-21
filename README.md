@@ -77,7 +77,7 @@ Other Documentation
 Issues
 ------
 
-If you have any problems or questions about this image, please contact us through  [GitHub issue](https://github.com/weseek/crowi-plus-docker-compose/issues).
+If you have any issues or questions about this image, please contact us through  [GitHub issue](https://github.com/weseek/crowi-plus-docker-compose/issues).
 
 
 License
