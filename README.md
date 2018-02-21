@@ -58,7 +58,7 @@ docker run -d \
     weseek/crowi-plus
 ```
 
-More info are [here](https://github.com/crowi/crowi/wiki/Install-and-Configuration#env-parameters).
+For more info [here](https://github.com/crowi/crowi/wiki/Install-and-Configuration#env-parameters).
 
 
 ### docker-compose
