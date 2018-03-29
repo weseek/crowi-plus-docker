@@ -1,7 +1,7 @@
 FROM node:6.12-alpine
 LABEL maintainer Yuki Takei <yuki@weseek.co.jp>
 
-ENV APP_VERSION v2.4.1
+ENV APP_VERSION v3.0.0-RC
 ENV APP_DIR /opt/crowi-plus
 
 # update tar for '--strip-components' option
