@@ -1,7 +1,10 @@
+<h1>:warning: DEPRECATED :warning:</h1>
+
+**crowi-plus is now developed as [GROWI](https://growi.org)([weseek/growi](https://github.com/weseek/growi)), and [weseek/growi-docker](https://github.com/weseek/growi-docker) is the successor to this repository.**
+
+
 crowi-plus-docker
 ==================
-
-[![wercker status](https://app.wercker.com/status/9a2ecec089dee1e6f308f5d0d1e090ae/s/ "wercker status")](https://app.wercker.com/project/byKey/9a2ecec089dee1e6f308f5d0d1e090ae) [![docker build automated](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/weseek/crowi-plus/) [![docker pulls](https://img.shields.io/docker/pulls/weseek/crowi-plus.svg)](https://hub.docker.com/r/weseek/crowi-plus/) [![](https://images.microbadger.com/badges/image/weseek/crowi-plus.svg)](https://microbadger.com/images/weseek/crowi-plus)
 
 Supported tags and respective Dockerfile links
 ------------------------------------------------
@@ -19,9 +22,7 @@ Supported tags and respective Dockerfile links
 What is crowi-plus?
 -------------------
 
-crowi-plus is open source wiki system forked from [crowi](https://github.com/weseek/crowi/crowi)
-
-see: [weseek/crowi-plus](https://github.com/weseek/crowi-plus)
+crowi-plus is open source wiki system forked from [Crowi](https://github.com/weseek/crowi/crowi).
 
 
 Requirements
@@ -65,19 +66,7 @@ For more info [here](https://github.com/crowi/crowi/wiki/Install-and-Configurati
 
 Using docker-compose is the fastest and the most convenient way to boot crowi-plus.
 
-see: [weseek/crowi-plus-docker-compose](https://github.com/weseek/crowi-plus-docker-compose)
-
-Other Documentation
---------------------
-
-* [crowi-plus wiki](https://github.com/weseek/crowi-plus/wiki)
-  * [Questions and Answers](https://github.com/weseek/crowi-plus/wiki/Questions-and-Answers)
-  
-  
-Issues
-------
-
-If you have any issues or questions about this image, please contact us through  [GitHub issue](https://github.com/weseek/crowi-plus-docker-compose/issues).
+see: [weseek/growi-docker-compose(crowi-plus-v2 branch)](https://github.com/weseek/growi-docker-compose/tree/crowi-plus-v2)
 
 
 License
